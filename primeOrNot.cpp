@@ -11,7 +11,7 @@ int main() {
   cin>>n;
   bool flag=true;
 
-  for(int i=2;i<=10;i++){
+  for(int i=2;i<n;i++){
       if(n%i !=0 || n==i){   
           flag= true;
        //yaha break nahi lagega
