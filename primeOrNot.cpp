@@ -12,7 +12,7 @@ int main() {
   bool flag=true;
 
   for(int i=2;i<n;i++){
-      if(n%i !=0 || n==i){   
+      if(n%i !=0 || n==i){   //when we are using i<n tab n==i ki need nahi hogi 
           flag= true;
        //yaha break nahi lagega
       }else {
