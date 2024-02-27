@@ -8,7 +8,23 @@ xor - ^   - same sign ho to zero nahi to one
 
 
 left shift = 5<<1       === 00000101 shift this by 1  == 00001010 => 10
-right shift = 5>>1      === 00000101 shift this by 1  == 00000010  now where is that 1 bit => 10000010
+right shift = 5>>1      === 00000101 shift this by 1  == 00000010 => 2
+
+problem will come in negative number and when number is big:
+example : 010000000010 =>if we left shift  , the number will become negative
+
+
+
+//trick of left and right shift
+//in left shift , you can double the number based on count
+//in right shift, you can divide the number and quotient ko print kar dena.
+5<<2 => count is 2
+5*2 = 10
+10*2 = 20
+
+5>>2 => count is 2
+5/2 = 2 quotient
+2/2 = 1
 */
 
 #include<iostream>
