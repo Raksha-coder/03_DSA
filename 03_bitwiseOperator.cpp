@@ -8,7 +8,7 @@ xor - ^   - same sign ho to zero nahi to one
 
 
 left shift = 5<<1       === 00000101 shift this by 1  == 00001010 => 10
-right shift = 
+right shift = 5>>1      === 00000101 shift this by 1  == 00000010  now where is that 1 bit => 10000010
 */
 
 #include<iostream>
@@ -22,4 +22,5 @@ int main(){
 	cout<< (~a) <<endl;    //00000100 => 11111011 => 1s compliment then 2s compliment = -5 
 	cout<< (a^b) <<endl;    //100 ^ 110 => 010 => 2
 	cout<< (5<<1) <<endl;
+	cout<< (5>>1)<<endl;
 }
