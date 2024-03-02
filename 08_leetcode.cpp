@@ -11,6 +11,11 @@ int main() {
   int n;
   cin>>n;
   int i= 0,sum = 0;
+  
+  if(n == 0){
+  	cout<<1;
+  }
+  
   while(n>0){
       int val = n%2;                //5%2 = 1   // 2%2 = 0   //1%2 = 1
       sum = sum +(!val)*pow(2,i);  // 0  + (!1)*pow(2,0) => 0   // 0 + (!0)*pow(2,1) => 2 // 2 + (!1)*pow(2,2)=>0
