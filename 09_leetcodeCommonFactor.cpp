@@ -8,7 +8,7 @@ using namespace std;
 //function   => here vector act as array
 vector<int> factors(int x){   //50
     vector<int> num;
-    for(int i=1;i<10;i++){
+    for(int i=1;i<=100;i++){
         if(x%i == 0){
               num.push_back(i);
               num.push_back(x/i);
