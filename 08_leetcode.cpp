@@ -4,9 +4,7 @@ input : n = 5;
 output : 2
 explanation: binary of 5 is : 101 , it's 1 compliment is : 010 which is 2
 
-
 */ 
-#include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
@@ -21,7 +19,5 @@ int main() {
   }
   
   cout<<sum;   //0+2+0 => 2
-  
- 
-    return 0;
+
 }
