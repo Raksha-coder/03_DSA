@@ -1,5 +1,18 @@
 //leetcode
 //compliment of base 10
+
+/*
+first we will create a mask 
+example : 5 = 00000101
+         mask=00000111
+         
+         ~5 = 11111010
+    & mask  = 00000111  
+    
+    ANS = 2
+
+*/
+
     int bitwiseComplement(int n) {
       
 
