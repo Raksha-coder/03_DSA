@@ -33,9 +33,19 @@ for using exit() in-build function , you have to use stdlib.h header file.
 automatic storage objects are not destroyed by calling this function in C++.
 write exit(0)=> show successful termination , any other number will not terminate the loop.
 this function do not return any value.it's type is void
-
 note : exit() function performs some cleaning before the termination of the program like connection termination, buffer flushes, etc.
-
+😀program :
+int num = 1;
+    while(1){
+        switch(num){
+            case 1:cout<<"first"<<endl;
+            exit(0);
+            break;
+            case 2:cout<<"second"<<endl;
+            break;
+        }
+    }
+    return 0;
 
 */
 
