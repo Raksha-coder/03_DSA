@@ -28,7 +28,7 @@ i= 12, a = 12
 QUE 3 : ek infinite loop mai humne switch use kiya h and us loop ke andar hum break use nahi kr sakte, ho will you come
 out of the loop the? agar switch ke andar break ho to wo bas switch se bahar aaega na ki loop se.
 Ans : use exit()
-
+for using exit() in-build function , you have to use stdlib.h header file.
 
 
 */
