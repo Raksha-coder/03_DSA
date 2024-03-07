@@ -27,8 +27,14 @@ i= 12, a = 12
 
 QUE 3 : ek infinite loop mai humne switch use kiya h and us loop ke andar hum break use nahi kr sakte, ho will you come
 out of the loop the? agar switch ke andar break ho to wo bas switch se bahar aaega na ki loop se.
-Ans : use exit()
+Ans : 
+use exit()
 for using exit() in-build function , you have to use stdlib.h header file.
+automatic storage objects are not destroyed by calling this function in C++.
+write exit(0)=> show successful termination , any other number will not terminate the loop.
+this function do not return any value.it's type is void
+
+note : exit() function performs some cleaning before the termination of the program like connection termination, buffer flushes, etc.
 
 
 */
