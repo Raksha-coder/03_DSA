@@ -47,6 +47,46 @@ int num = 1;
     }
     return 0;
 
+
+
+
+
+/////////////////call by value mcq
+
+void update(int a)
+{
+	a = a/2;
+}
+
+main(){
+	int a = 10;
+ 	update(a);
+  	cout<<a;
+}
+
+output: 10;
+
+
+/////////////////////////////////////////////
+int up(int a ){
+    int ans = a*a;
+    return ans;
+}
+int main() {
+    int a = 14;
+    a = up(14);
+    cout<<a;
+    
+    return 0;
+}
+
+output: 196
+
+
+
+
+
+
 */
 
 #include<iostream>
