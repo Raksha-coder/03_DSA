@@ -18,4 +18,9 @@ like int arrayname[size];
 Good Practice : rather than doing this write direct value , int arrayname[10000];
 
 
+in case of function: if we pass array in a function, it will act as pointer
+because array it'self store it's first element address in it.
+but in case of variable it does not act as pointer.
+
+
 ## garbage value
