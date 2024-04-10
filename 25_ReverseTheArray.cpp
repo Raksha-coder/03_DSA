@@ -19,7 +19,7 @@ void reverse(int arr[],int size)
     int start = 0;
     int end = size-1;
     
-    while(start < end)
+    while(start <= end)
     {
         int temp = arr[start];
         arr[start] = arr[end];
