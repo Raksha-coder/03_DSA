@@ -1,3 +1,8 @@
+
+//TWO POINTER APPROACH = IMP
+
+
+
 //optimize way of previous question
 /*
 Problem statement
